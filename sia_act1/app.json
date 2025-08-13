@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "SIA_act1",
+    "slug": "SIA_act1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/color-pencils.png",
+    "scheme": "siaact1",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/color-pencils.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.jomarie_roperez.SIA_act1"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/color-pencils.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/color-pencils.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b2e27b5c-27c6-4a55-9cfb-f3978c1cb8e9"
+      }
+    }
+  }
+}
